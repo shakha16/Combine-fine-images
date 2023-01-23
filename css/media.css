@@ -1,0 +1,87 @@
+@media (max-width: 576px) {
+    .header .container {
+        display: grid;
+        grid-template-columns: 40px 1fr auto;
+        grid-template-areas: 'nav logo button';
+        grid-template-areas: "";
+
+    }
+
+    .logo {
+        font-size: 24px;
+        line-height: 36px;
+
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav {
+        grid-area: nav;
+    }
+
+    .header .button-primary {
+        grid-area: button;
+    }
+
+
+
+    .nav label {
+        display: block;
+        position: relative;
+        width: 18px;
+        height: 2px;
+        border-radius: 2px;
+        background: #5C5C5C;
+
+    }
+
+    .nav label:before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        display: block;
+        width: 18px;
+        height: 2px;
+        border-radius: 2px;
+        background: #5C5C5C;
+
+    }
+
+    .nav label:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        display: block;
+        width: 18px;
+        height: 2px;
+        border-radius: 2px;
+        background: #5C5C5C;
+    }
+
+    #menuToggle:checked~ul {
+        display: block;
+        position: absolute;
+        background-color: #FFF;
+        top: 72px;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* CSS для: 768px – 991px */
+}
+
+@media (max-width: 992px) {
+    /* CSS для: 992px – 1119px */
+}
+
+@media (max-width: 1200px) {
+    /* CSS для экранов больше 1200px */
+}

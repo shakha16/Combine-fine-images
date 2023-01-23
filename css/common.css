@@ -1,0 +1,52 @@
+:root {
+    /* Colors */
+    --black: #2D3436;
+    --white: #FFFFFF;
+    --blue: #0984E3;
+    --blue-light: #74B9FF;
+    --green: #00B894;
+    --green-light: #55EFC4;
+    --green: #00B894;
+    --green-light: #55EFC4;
+    --yellow: #FDCB6E;
+    --yellow-light: #FFEAA7;
+    --red: #D63031;
+    --red-light: #FF7675;
+    --purple: #6C5CE7;
+    --purple-light: #A29BFE;
+    --pink: #E84393;
+    --pink-light: #FD79A8;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.button-primary {
+    padding: 14px 45px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    background-color: var(--purple);
+    text-decoration: none;
+    border-radius: 999px;
+    border: none;
+    text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+
+}
+
+.button-primary:hover {
+    opacity: 0.8;
+}
